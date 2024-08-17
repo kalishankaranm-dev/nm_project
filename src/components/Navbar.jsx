@@ -19,8 +19,8 @@ import {
   useTheme,
 } from "@mui/material";
 
-const Navbar = () => {
-  const dipatch = useDispatch();
+const Navbar = ({ isSidebarOpen, setIsSidebarOpen }) => {
+  const dispatch = useDispatch();
   const theme = useTheme();
   return (
     <AppBar
@@ -33,7 +33,7 @@ const Navbar = () => {
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/*LEFT SIDE - Menu / Search bar */}
         <FlexBetween>
-          <IconButton onClick={() => console.log("open/close sidebar")}>
+          <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
             <MenuIcon />
           </IconButton>
           <FlexBetween
@@ -51,7 +51,7 @@ const Navbar = () => {
 
         {/*RIGHT SIDE - Theme Mode / Setting */}
         <FlexBetween gap="1.5rem">
-          <IconButton onClick={() => dipatch(setMode())}>
+          <IconButton onClick={() => dispatch(setMode())}>
             {theme.palette.mode === "dark" ? (
               <DarkModeOutlined sx={{ fontSize: "25px" }} />
             ) : (
