@@ -1,12 +1,13 @@
 import React from "react";
 import { Box, useTheme } from "@mui/material";
-import { useGetCustomersQuery } from "state/api";
-import Header from "components/Header";
+import { useGetAdminsQuery } from "state/api";
 import { DataGrid } from "@mui/x-data-grid";
+import Header from "components/Header";
+import CustomColumnMenu from "components/DataGridCustomColumnMenu";
 
-const Customers = () => {
+const Admin = () => {
   const theme = useTheme();
-  const { data, isLoading } = useGetCustomersQuery();
+  const { data, isLoading } = useGetAdminsQuery();
 
   const columns = [
     {
@@ -48,10 +49,12 @@ const Customers = () => {
       flex: 0.5,
     },
   ];
-
   return (
     <Box m="1.5rem 2.5rem">
-      <Header title="CUSTOMERS" subtitle="List of Customer" />
+      <Header
+        title="ADMINS"
+        subtitle="Managing admins and the list of Admins"
+      />
       <Box
         mt="40px"
         height="75vh"
@@ -85,10 +88,13 @@ const Customers = () => {
           getRowId={(row) => row._id}
           rows={data || []}
           columns={columns}
+          components={{
+            ColumnMenu: CustomColumnMenu,
+          }}
         />
       </Box>
     </Box>
   );
 };
 
-export default Customers;
+export default Admin;
