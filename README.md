@@ -4,8 +4,8 @@ A comprehensive MERN stack admin dashboard application. This project features a 
 
 ## 🚀 Live Demo
 
-- **Backend**: [MERN Admin Dashboard Backend](https://mern-admin-dashboard-backend-ola7.onrender.com)
-- **Frontend**: [MERN Admin Dashboard Frontend](https://mern-admin-dashboard-frontend-ob7l.onrender.com/dashboard)
+- **Backend**: [MERN Admin Dashboard Backend](https://mern-admin-dashboard-backend-ola7.onrender.com/management/admins)
+- **Frontend**: [MERN Admin Dashboard Frontend](https://mern-admin-dashboard-frontend-ob7l.onrender.com)
 
 ## 🛠️ Technologies Used
 
