@@ -23,7 +23,6 @@ import {
   PublicOutlined,
   PointOfSaleOutlined,
   TodayOutlined,
-  CalenderOutlined,
   AdminPanelSettingsOutlined,
   TrendingUpOutlined,
   PieChartOutlined,
@@ -33,8 +32,6 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
 import profileImage from "assets/profile.png";
-import { ThemeContext } from "@emotion/react";
-import { ChevronRight } from "lucide-react";
 
 const navItems = [
   {
