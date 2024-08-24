@@ -44,6 +44,7 @@ const OverviewChart = ({ isDashboard = false, view }) => {
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!data || isLoading) return "Loading...";
+
   return (
     <ResponsiveLine
       data={view === "sales" ? totalSalesLine : totalUnitsLine}
@@ -91,11 +92,12 @@ const OverviewChart = ({ isDashboard = false, view }) => {
       }}
       yFormat=" >-.2f"
       curve="catmullRom"
+      enableArea={isDashboard}
       axisTop={null}
       axisRight={null}
       axisBottom={{
         format: (v) => {
-          if (isDashboard) return v.slie(0, 3);
+          if (isDashboard) return v.slice(0, 3);
           return v;
         },
         tickSize: 5,
@@ -117,6 +119,8 @@ const OverviewChart = ({ isDashboard = false, view }) => {
         legendPosition: "middle",
         truncateTickAt: 0,
       }}
+      gridXValues={isDashboard ? [] : undefined} // Conditionally hide X-axis grid
+      gridYValues={isDashboard ? [] : undefined} // Conditionally hide Y-axis grid
       pointSize={10}
       pointColor={{ theme: "background" }}
       pointBorderWidth={2}
