@@ -4,6 +4,8 @@ A comprehensive MERN stack admin dashboard application. This project features a 
 
 ## 🚀 Live Demo
 
+notice: after 15min of inactivity on the website, reloading the website may take up to minute or two.
+
 - **Backend**: [MERN Admin Dashboard Backend](https://mern-admin-dashboard-backend-ola7.onrender.com/management/admins)
 - **Frontend**: [MERN Admin Dashboard Frontend](https://mern-admin-dashboard-frontend-ob7l.onrender.com)
 
@@ -118,8 +120,5 @@ In the project directory, you can run:
 
 ## 🚀 Deployment
 
-The project is deployed using [Render](https://render.com/). The backend and frontend are hosted separately:
-
-- **Backend**: [MERN Admin Dashboard Backend](https://mern-admin-dashboard-backend-ola7.onrender.com)
-- **Frontend**: [MERN Admin Dashboard Frontend](https://mern-admin-dashboard-frontend-ob7l.onrender.com/dashboard)
+The project is deployed using [Render](https://render.com/). The backend and frontend are hosted separately.
 
