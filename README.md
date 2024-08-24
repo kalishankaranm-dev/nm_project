@@ -67,7 +67,7 @@ notice: after 15min of inactivity on the website, reloading the website may take
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/mern-admin-dashboard.git
+   git clone https://github.com/ShaiShillo/MERN-Admin-Dashboard.git
    cd mern-admin-dashboard
    ```
    
