@@ -33,18 +33,18 @@ Dotenv for environment configs
 
 Installation:
 1. Clone the repository
-+git clone 'github browser link'.git
-+cd mern-admin-dashboard
+*git clone 'github browser link'.git  
+*cd mern-admin-dashboard  
 
 2. Setup backend
-*cd server
-*npm install
-*npm run dev
+*cd server  
+*npm install  
+*npm run dev  
 
 3. Setup frontend
-*cd ../client
-*npm install
-*npm start
+*cd ../client  
+*npm install  
+*npm start  
 
 Environment Variables
 *Create a .env file inside the server/ folder:
