@@ -33,25 +33,25 @@ Dotenv for environment configs
 
 Installation:
 1. Clone the repository
-git clone 'github browser link'.git
-cd mern-admin-dashboard
+*git clone 'github browser link'.git
+*cd mern-admin-dashboard
 
 2. Setup backend
-cd server
-npm install
+*cd server
+*npm install
 # Add .env file
-npm run dev
+*npm run dev
 
 3. Setup frontend
-cd ../client
-npm install
-npm start
+*cd ../client
+*npm install
+*npm start
 
 Environment Variables
-Create a .env file inside the server/ folder:
-PORT=5000
-MONGO_URI=mongodb+srv://your-db-uri
-JWT_SECRET=your_jwt_secret
+*Create a .env file inside the server/ folder:
+*PORT=5000
+*MONGO_URI=mongodb+srv://your-db-uri
+*JWT_SECRET=your_jwt_secret
 
 API Routes
 | Method | Endpoint             | Description           |
@@ -63,12 +63,11 @@ API Routes
 | DELETE | `/api/users/:id`     | Delete user           |
 
 Deployment
-You can deploy the frontend on Vercel or Netlify, and the backend on Render, Railway, or Heroku.
+*You can deploy the frontend on Vercel or Netlify, and the backend on Render, Railway, or Heroku.
 Example Deployment Guides:
-Vercel: https://vercel.com/docs
-Render: https://render.com/docs
+*Vercel: https://vercel.com/docs
+*Render: https://render.com/docs
 
 Author
-
 Your Name
 GitHub: Kalishankaran M
