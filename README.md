@@ -1,4 +1,5 @@
-**Admin Dashboard**
+<div align="center">Admin Dashboard </div>
+ 
 An Admin Dashboard built with the MERN stack (MongoDB, Express.js, React, and Node.js). 
 This dashboard provides an interface for managing users, data analytics, and administrative tasks. 
 Designed to be scalable, responsive, and easy to customize.
@@ -67,6 +68,5 @@ Example Deployment Guides:
 *Vercel: https://vercel.com/docs  
 *Render: https://render.com/docs
 
-Author
-Your Name
-GitHub: Kalishankaran M
+**Author**   
+Kalishankaran M  
