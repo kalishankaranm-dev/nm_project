@@ -1,4 +1,4 @@
-MERN Admin Dashboard
+Admin Dashboard
 An Admin Dashboard built with the MERN stack (MongoDB, Express.js, React, and Node.js). 
 This dashboard provides an interface for managing users, data analytics, and administrative tasks. 
 Designed to be scalable, responsive, and easy to customize.
@@ -39,7 +39,6 @@ Installation:
 2. Setup backend
 *cd server
 *npm install
-# Add .env file
 *npm run dev
 
 3. Setup frontend
