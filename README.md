@@ -33,8 +33,8 @@ Dotenv for environment configs
 
 Installation:
 1. Clone the repository
-*git clone 'github browser link'.git
-*cd mern-admin-dashboard
++git clone 'github browser link'.git
++cd mern-admin-dashboard
 
 2. Setup backend
 *cd server
