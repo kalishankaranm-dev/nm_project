@@ -1,4 +1,4 @@
-<div align="center">**Admin Dashboard** </div>
+<div align="center"><b>Admin Dashboard</b></div>
  
 An Admin Dashboard built with the MERN stack (MongoDB, Express.js, React, and Node.js). 
 This dashboard provides an interface for managing users, data analytics, and administrative tasks. 
@@ -32,7 +32,8 @@ JSON Web Tokens (JWT)
 Bcrypt for password hashing  
 Dotenv for environment configs  
 
-**Installation:**
+**Installation:**  
+
 1. Clone the repository
 *git clone 'github browser link'.git  
 *cd mern-admin-dashboard  
@@ -45,13 +46,16 @@ Dotenv for environment configs
 3. Setup frontend
 *cd ../client  
 *npm install  
-*npm start  
+*npm start
+ 
 
-**Environment Variables**  
+**Environment Variables**   
+
 *Create a .env file inside the server/ folder:  
 *PORT=5000  
 *MONGO_URI=mongodb+srv://your-db-uri  
-*JWT_SECRET=your_jwt_secret  
+*JWT_SECRET=your_jwt_secret    
+
 
 **API Routes**  
 | Method | Endpoint             | Description           |
@@ -62,11 +66,14 @@ Dotenv for environment configs
 | PUT    | `/api/users/:id`     | Update user           |
 | DELETE | `/api/users/:id`     | Delete user           |
 
-**Deployment**
+  
+**Deployment**  
+
 *You can deploy the frontend on Vercel or Netlify, and the backend on Render, Railway, or Heroku.  
 Example Deployment Guides:  
 *Vercel: https://vercel.com/docs  
-*Render: https://render.com/docs
+*Render: https://render.com/docs  
+
 
 **Author**   
 Kalishankaran M  
