@@ -74,6 +74,4 @@ Example Deployment Guides:
 *Vercel: https://vercel.com/docs  
 *Render: https://render.com/docs  
 
-
-**Author**   
-Kalishankaran M  
+Inspiration and base code from "https://github.com/ShaiShillo" was used as a base and has been modified.
